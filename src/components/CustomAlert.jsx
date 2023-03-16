@@ -10,7 +10,7 @@ function CustomAlert({showProp, setShow, textToRender, variant='success', time='
     return (
       <div className={styles.mobile_alert}>
       <Alert show={showProp}  variant={variant} onClick={() => setShow(false)}  >
-       {textToRender}
+       <p className={styles.text}>{textToRender}</p>
       </Alert>
       </div>
     );

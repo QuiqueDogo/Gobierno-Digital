@@ -19,11 +19,11 @@ function Navbar(prop) {
       widthNav.current.style.left = '0%'
   }
   const closeNav = () => {
-    widthNav.current.style.left = '-60%'
+    widthNav.current.style.left = '-80%'
   }
 
   const triggerClose = () => {
-    widthNav.current.style.left = '-60%'
+    widthNav.current.style.left = '-80%'
   }
     return(
 			<Router>

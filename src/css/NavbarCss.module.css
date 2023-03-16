@@ -129,3 +129,8 @@ li{
     top: 5%;
     right: 10%;
 }
+
+.text{
+    text-transform: capitalize;
+}
+

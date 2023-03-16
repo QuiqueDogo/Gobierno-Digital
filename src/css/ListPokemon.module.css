@@ -1,8 +1,9 @@
 
+
 .contentPokemon{
     margin-top:50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -149,4 +150,26 @@
 .types{
     margin: 5px;
     width: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contentPokemon{
+        flex-direction: column;
+    }
+
+    .allimg{
+        margin-top: 30px;
+        width: 300px;
+        justify-content: center;
+    }
+
+    .all{
+        width: 300px;
+    }
+    .subscreen{
+        width: 85%;
+    }
+    .screenInfo{
+        width: 85%;
+    }
 }

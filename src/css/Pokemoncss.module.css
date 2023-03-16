@@ -34,3 +34,17 @@
   .button{
     margin-top: 10px;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .container_pok{
+      padding: 10px 0 ;
+    }
+
+    .loading{
+      left: 35%;
+      top: 45%;
+    }
+  
+  
+}
