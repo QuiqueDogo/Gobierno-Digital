@@ -1,0 +1,36 @@
+.container_pok{
+    box-sizing: border-box;
+    height: auto;
+    padding:60px;
+    width: 100%;    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* background-image: url('../img/battle.png');
+    object-fit:cover; */
+  }
+
+  .loading{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+  }
+
+  .inputSearch{
+    width:300px;
+    height:50px;
+    border-radius: 15px;
+    padding: 10px
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:60px;
+  }
+
+  .button{
+    margin-top: 10px;
+  }

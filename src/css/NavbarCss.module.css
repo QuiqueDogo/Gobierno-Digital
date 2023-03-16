@@ -1,0 +1,131 @@
+.current{
+    background-color:rgba(196, 68, 68, 0.89);
+    width: 100%;
+    border: 1px solid white;
+   
+    /* transition: 0.2s ease-in; */
+}
+a{  
+    text-align: center;
+    color:rgba(224, 218, 218, 0.87);
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease-in;
+
+    height: 30px;
+}
+a:visited{
+    color:rgb(235, 228, 228);
+}
+/* a:hover{
+    box-shadow: 0 3px 0 rgba(54, 52, 52, 0.828);
+    cursor: pointer;
+} */
+.Pok{
+    color: white;
+}
+p{
+    font-size: 14px;
+}
+.header{
+    padding:9px;
+    display: flex;
+    width:50px;
+    height:50px;
+    border: 2px solid #437cb1;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 5;
+    cursor: pointer;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+}
+.containerLogo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.choose{
+    
+    padding:5px 0;
+    letter-spacing: 1px; 
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.navburger{
+    border: 1px;
+    cursor: pointer;
+}
+
+/* 230*/ 
+.sideNav{
+    display: flex;
+    flex-direction: column;
+    padding-top:15px;
+    width:230px;
+    background-color: #437cb1;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: -60%;
+    z-index: 5;
+    transition: left 0.4s ease;
+    overflow: hidden;
+}
+
+.containerPok{
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url('../img/wormz.png');
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.menu ul {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.menu ul li{
+    height:50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.menu ul li a{
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.closesvg{
+    cursor:pointer; 
+    margin-right:10px;
+}
+
+.mobile_alert{
+    position:absolute;
+    z-index: 6;
+    top: 5%;
+    right: 10%;
+}
